@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA12D409353DE2937982BF37 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D87D56FB056E8FBBE982 /* SecondViewController.swift */; };
+		AA12D4296C771EB4ED621DD7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA12DCA3540F8CF772D640E5 /* Info.plist */; };
+		AA12D55C8C8F7218DDB79B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12DCB8E36F10D054AEB1A7 /* LaunchScreen.storyboard */; };
+		AA12D7090B35E6DCED6C6AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12D1433213767B5A612C1E /* Main.storyboard */; };
+		AA12D7CFB3576C430DA04A16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D85E41218CA936B978D1 /* FirstViewController.swift */; };
+		AA12D7FAFCE1BE2F568F41D7 /* OpenHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D15331AF467438B7EDFF /* OpenHomeTests.swift */; };
+		AA12D9BB85A2C6CAB8F34D00 /* OpenHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D3CAAFF2E9101D3A1FE5 /* OpenHomeUITests.swift */; };
+		AA12DB060241FB32FDE94632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */; };
+		AA12DD2AEE98E15B923E2970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA12D2D5A65C4AB8821F6E75 /* Assets.xcassets */; };
+		AA12DE3EDF680A8B3CDF6A2F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA12D1ECA3336811FDC1E1E3 /* Info.plist */; };
+		AA12DE563BC5FBB34096EE73 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA12D2086CD450EC84B0F6F4 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA12D33F39339E6B99669696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA12D94E61CC938FCFF2C037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA12D914FE46368972C07C64;
+			remoteInfo = OpenHome;
+		};
+		AA12DFC1932E707602909CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA12D94E61CC938FCFF2C037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA12D914FE46368972C07C64;
+			remoteInfo = OpenHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA12D085984039D5D375A7A2 /* OpenHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12D15331AF467438B7EDFF /* OpenHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHomeTests.swift; sourceTree = "<group>"; };
+		AA12D1ECA3336811FDC1E1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AA12D2086CD450EC84B0F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AA12D2D5A65C4AB8821F6E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA12D3CAAFF2E9101D3A1FE5 /* OpenHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHomeUITests.swift; sourceTree = "<group>"; };
+		AA12D3F2AB5A7DF02285997B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA12D40664026D29C94A2E2D /* OpenHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12D85E41218CA936B978D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AA12D87D56FB056E8FBBE982 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AA12D8ED7A2BABC1DB7C9FC6 /* OpenHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA12DCA3540F8CF772D640E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AA12DD0BA893478A540B9A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA12D3ECCE5C69CCEA4A0749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12D9A6A6EBC79C7DF91A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12DB5D6B585776ED2C31B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA12D037B3CE4A290DCCB5FC /* OpenHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA12D1ECA3336811FDC1E1E3 /* Info.plist */,
+				AA12D3CAAFF2E9101D3A1FE5 /* OpenHomeUITests.swift */,
+			);
+			path = OpenHomeUITests;
+			sourceTree = "<group>";
+		};
+		AA12D3030207B2394E571977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA12D8ED7A2BABC1DB7C9FC6 /* OpenHome.app */,
+				AA12D40664026D29C94A2E2D /* OpenHomeTests.xctest */,
+				AA12D085984039D5D375A7A2 /* OpenHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA12D569DB669C2FBE6A377A /* OpenHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA12D2086CD450EC84B0F6F4 /* Info.plist */,
+				AA12D15331AF467438B7EDFF /* OpenHomeTests.swift */,
+			);
+			path = OpenHomeTests;
+			sourceTree = "<group>";
+		};
+		AA12DAF6BC4F6D00360303DD /* OpenHome */ = {
+			isa = PBXGroup;
+			children = (
+				AA12DCA3540F8CF772D640E5 /* Info.plist */,
+				AA12D2D5A65C4AB8821F6E75 /* Assets.xcassets */,
+				AA12DCB8E36F10D054AEB1A7 /* LaunchScreen.storyboard */,
+				AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */,
+				AA12D1433213767B5A612C1E /* Main.storyboard */,
+				AA12D85E41218CA936B978D1 /* FirstViewController.swift */,
+				AA12D87D56FB056E8FBBE982 /* SecondViewController.swift */,
+			);
+			path = OpenHome;
+			sourceTree = "<group>";
+		};
+		AA12DF0E73E5074963417C2D = {
+			isa = PBXGroup;
+			children = (
+				AA12D3030207B2394E571977 /* Products */,
+				AA12DAF6BC4F6D00360303DD /* OpenHome */,
+				AA12D569DB669C2FBE6A377A /* OpenHomeTests */,
+				AA12D037B3CE4A290DCCB5FC /* OpenHomeUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA12D0FD0582074517C2131E /* OpenHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12D501A3CE4E514C28BA7A /* Build configuration list for PBXNativeTarget "OpenHomeUITests" */;
+			buildPhases = (
+				AA12DE31BD8F553C12868A66 /* Sources */,
+				AA12D9A6A6EBC79C7DF91A64 /* Frameworks */,
+				AA12D5E034BBD9C74B3FC1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA12D5074FACFD59F1B03FCC /* PBXTargetDependency */,
+			);
+			name = OpenHomeUITests;
+			productName = OpenHomeUITests;
+			productReference = AA12D085984039D5D375A7A2 /* OpenHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AA12D402DF1467CAE4D16DA5 /* OpenHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12D52FCAB43A7E63FF3B55 /* Build configuration list for PBXNativeTarget "OpenHomeTests" */;
+			buildPhases = (
+				AA12D4FFDF0BC4F595D519F1 /* Sources */,
+				AA12D3ECCE5C69CCEA4A0749 /* Frameworks */,
+				AA12DF6904487FD4FBEE7972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA12DB3C7C59D50B606ABB48 /* PBXTargetDependency */,
+			);
+			name = OpenHomeTests;
+			productName = OpenHomeTests;
+			productReference = AA12D40664026D29C94A2E2D /* OpenHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA12D914FE46368972C07C64 /* OpenHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12DEFEC9EE69AE6FDF9274 /* Build configuration list for PBXNativeTarget "OpenHome" */;
+			buildPhases = (
+				AA12D081BC66DC16122F2C09 /* Sources */,
+				AA12DB5D6B585776ED2C31B6 /* Frameworks */,
+				AA12DDE77FB685646F4E9CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenHome;
+			productName = OpenHome;
+			productReference = AA12D8ED7A2BABC1DB7C9FC6 /* OpenHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA12D94E61CC938FCFF2C037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				ORGANIZATIONNAME = "Johannes Steudle";
+			};
+			buildConfigurationList = AA12DE0C4A2C77FE92D21627 /* Build configuration list for PBXProject "OpenHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA12DF0E73E5074963417C2D;
+			productRefGroup = AA12D3030207B2394E571977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA12D914FE46368972C07C64 /* OpenHome */,
+				AA12D402DF1467CAE4D16DA5 /* OpenHomeTests */,
+				AA12D0FD0582074517C2131E /* OpenHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA12D5E034BBD9C74B3FC1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12DE3EDF680A8B3CDF6A2F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12DDE77FB685646F4E9CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12D4296C771EB4ED621DD7 /* Info.plist in Resources */,
+				AA12DD2AEE98E15B923E2970 /* Assets.xcassets in Resources */,
+				AA12D55C8C8F7218DDB79B33 /* LaunchScreen.storyboard in Resources */,
+				AA12D7090B35E6DCED6C6AF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12DF6904487FD4FBEE7972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12DE563BC5FBB34096EE73 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA12D081BC66DC16122F2C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12DB060241FB32FDE94632 /* AppDelegate.swift in Sources */,
+				AA12D7CFB3576C430DA04A16 /* FirstViewController.swift in Sources */,
+				AA12D409353DE2937982BF37 /* SecondViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12D4FFDF0BC4F595D519F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12D7FAFCE1BE2F568F41D7 /* OpenHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12DE31BD8F553C12868A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12D9BB85A2C6CAB8F34D00 /* OpenHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA12D5074FACFD59F1B03FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA12D914FE46368972C07C64 /* OpenHome */;
+			targetProxy = AA12DFC1932E707602909CAC /* PBXContainerItemProxy */;
+		};
+		AA12DB3C7C59D50B606ABB48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA12D914FE46368972C07C64 /* OpenHome */;
+			targetProxy = AA12D33F39339E6B99669696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA12D1433213767B5A612C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA12DD0BA893478A540B9A67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA12DCB8E36F10D054AEB1A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA12D3F2AB5A7DF02285997B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA12D015E3D759BEA4172CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenHome.app/OpenHome";
+				INFOPLIST_FILE = OpenHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AA12D1721F3953611E0C408A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenHome.app/OpenHome";
+				INFOPLIST_FILE = OpenHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		AA12D293085AF37C1FAFF5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenHome.app/OpenHome";
+				INFOPLIST_FILE = OpenHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AA12D4CE52B80EE2170517BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA12D786A04391DA6C98A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenHome.app/OpenHome";
+				INFOPLIST_FILE = OpenHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		AA12D8A361C6D9E48160E162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA12DBC4FFD0F3570462BB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA12DFF047C2B3F3B367AD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA12D501A3CE4E514C28BA7A /* Build configuration list for PBXNativeTarget "OpenHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12D293085AF37C1FAFF5A7 /* Debug */,
+				AA12D786A04391DA6C98A74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA12D52FCAB43A7E63FF3B55 /* Build configuration list for PBXNativeTarget "OpenHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12D015E3D759BEA4172CC2 /* Debug */,
+				AA12D1721F3953611E0C408A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA12DE0C4A2C77FE92D21627 /* Build configuration list for PBXProject "OpenHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12D4CE52B80EE2170517BC /* Debug */,
+				AA12DFF047C2B3F3B367AD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA12DEFEC9EE69AE6FDF9274 /* Build configuration list for PBXNativeTarget "OpenHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12D8A361C6D9E48160E162 /* Debug */,
+				AA12DBC4FFD0F3570462BB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA12D94E61CC938FCFF2C037 /* Project object */;
+}
