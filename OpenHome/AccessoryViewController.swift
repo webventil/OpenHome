@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  OpenHome
 //
 //  Created by Johannes on 16.02.16.
@@ -10,7 +10,7 @@
 import UIKit
 
 
-class FirstViewController: UIViewController {
+class AccessoryViewController: UIViewController {
 
 
     override func viewDidLoad() {

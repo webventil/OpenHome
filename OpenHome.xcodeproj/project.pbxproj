@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA12D409353DE2937982BF37 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D87D56FB056E8FBBE982 /* SecondViewController.swift */; };
-		AA12D4296C771EB4ED621DD7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA12DCA3540F8CF772D640E5 /* Info.plist */; };
+		8FAAE48C1CDF8BEE009B5E2B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAAE48B1CDF8BEE009B5E2B /* HomeKit.framework */; };
+		AA12D409353DE2937982BF37 /* AccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D87D56FB056E8FBBE982 /* AccessoryViewController.swift */; };
 		AA12D55C8C8F7218DDB79B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12DCB8E36F10D054AEB1A7 /* LaunchScreen.storyboard */; };
 		AA12D7090B35E6DCED6C6AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12D1433213767B5A612C1E /* Main.storyboard */; };
-		AA12D7CFB3576C430DA04A16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D85E41218CA936B978D1 /* FirstViewController.swift */; };
+		AA12D7CFB3576C430DA04A16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D85E41218CA936B978D1 /* MainViewController.swift */; };
 		AA12D7FAFCE1BE2F568F41D7 /* OpenHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D15331AF467438B7EDFF /* OpenHomeTests.swift */; };
 		AA12D9BB85A2C6CAB8F34D00 /* OpenHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D3CAAFF2E9101D3A1FE5 /* OpenHomeUITests.swift */; };
 		AA12DB060241FB32FDE94632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */; };
 		AA12DD2AEE98E15B923E2970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA12D2D5A65C4AB8821F6E75 /* Assets.xcassets */; };
-		AA12DE3EDF680A8B3CDF6A2F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA12D1ECA3336811FDC1E1E3 /* Info.plist */; };
-		AA12DE563BC5FBB34096EE73 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA12D2086CD450EC84B0F6F4 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FAAE48A1CDF8BEE009B5E2B /* OpenHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OpenHome.entitlements; sourceTree = "<group>"; };
+		8FAAE48B1CDF8BEE009B5E2B /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		AA12D085984039D5D375A7A2 /* OpenHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA12D15331AF467438B7EDFF /* OpenHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHomeTests.swift; sourceTree = "<group>"; };
 		AA12D1ECA3336811FDC1E1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -46,8 +46,8 @@
 		AA12D3CAAFF2E9101D3A1FE5 /* OpenHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHomeUITests.swift; sourceTree = "<group>"; };
 		AA12D3F2AB5A7DF02285997B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA12D40664026D29C94A2E2D /* OpenHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA12D85E41218CA936B978D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AA12D87D56FB056E8FBBE982 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AA12D85E41218CA936B978D1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AA12D87D56FB056E8FBBE982 /* AccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewController.swift; sourceTree = "<group>"; };
 		AA12D8ED7A2BABC1DB7C9FC6 /* OpenHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA12DCA3540F8CF772D640E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FAAE48C1CDF8BEE009B5E2B /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,13 +111,14 @@
 		AA12DAF6BC4F6D00360303DD /* OpenHome */ = {
 			isa = PBXGroup;
 			children = (
+				8FAAE48A1CDF8BEE009B5E2B /* OpenHome.entitlements */,
 				AA12DCA3540F8CF772D640E5 /* Info.plist */,
 				AA12D2D5A65C4AB8821F6E75 /* Assets.xcassets */,
 				AA12DCB8E36F10D054AEB1A7 /* LaunchScreen.storyboard */,
 				AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */,
 				AA12D1433213767B5A612C1E /* Main.storyboard */,
-				AA12D85E41218CA936B978D1 /* FirstViewController.swift */,
-				AA12D87D56FB056E8FBBE982 /* SecondViewController.swift */,
+				AA12D85E41218CA936B978D1 /* MainViewController.swift */,
+				AA12D87D56FB056E8FBBE982 /* AccessoryViewController.swift */,
 			);
 			path = OpenHome;
 			sourceTree = "<group>";
@@ -124,6 +126,7 @@
 		AA12DF0E73E5074963417C2D = {
 			isa = PBXGroup;
 			children = (
+				8FAAE48B1CDF8BEE009B5E2B /* HomeKit.framework */,
 				AA12D3030207B2394E571977 /* Products */,
 				AA12DAF6BC4F6D00360303DD /* OpenHome */,
 				AA12D569DB669C2FBE6A377A /* OpenHomeTests */,
@@ -194,7 +197,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Johannes Steudle";
+				TargetAttributes = {
+					AA12D914FE46368972C07C64 = {
+						DevelopmentTeam = HAFYU85U45;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = AA12DE0C4A2C77FE92D21627 /* Build configuration list for PBXProject "OpenHome" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA12DE3EDF680A8B3CDF6A2F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +241,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA12D4296C771EB4ED621DD7 /* Info.plist in Resources */,
 				AA12DD2AEE98E15B923E2970 /* Assets.xcassets in Resources */,
 				AA12D55C8C8F7218DDB79B33 /* LaunchScreen.storyboard in Resources */,
 				AA12D7090B35E6DCED6C6AF6 /* Main.storyboard in Resources */,
@@ -239,7 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA12DE563BC5FBB34096EE73 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA12DB060241FB32FDE94632 /* AppDelegate.swift in Sources */,
-				AA12D7CFB3576C430DA04A16 /* FirstViewController.swift in Sources */,
-				AA12D409353DE2937982BF37 /* SecondViewController.swift in Sources */,
+				AA12D7CFB3576C430DA04A16 /* MainViewController.swift in Sources */,
+				AA12D409353DE2937982BF37 /* AccessoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,9 +415,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenHome/OpenHome.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHome;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gitjay.OpenHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -415,9 +428,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenHome/OpenHome.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JDSystems.OpenHome;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gitjay.OpenHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
