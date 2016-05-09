@@ -58,7 +58,6 @@ class MainViewController: UITableViewController, HMHomeManagerDelegate {
 	func homeManagerDidUpdateHomes(manager: HMHomeManager) {
 		print("homeManagerDidUpdateHomes")
 		checkHomeSetup()
-		tableView.reloadData()
 	}
 	
 	// MARK: HomeKit Helper Functions
@@ -68,7 +67,7 @@ class MainViewController: UITableViewController, HMHomeManagerDelegate {
 			self.activeHome = homeManager.primaryHome
 			print("Found primary home: \(activeHome)")
 			title = activeHome!.name
-			
+         self.tableView.reloadData()
 		} else if homeManager.homes.first != nil {
 			self.activeHome = homeManager.homes.first
 			print("Found first home: \(activeHome), set it to primary")
@@ -77,6 +76,7 @@ class MainViewController: UITableViewController, HMHomeManagerDelegate {
 					print("Something went wrong when attempting to make this home our primary home. \(error?.localizedDescription)")
 				}
 			})
+         self.tableView.reloadData()
 		} else {
 			print("Found no home")
 			
@@ -104,6 +104,7 @@ class MainViewController: UITableViewController, HMHomeManagerDelegate {
 								print("Something went wrong when attempting to make this home our primary home. \(error?.localizedDescription)")
 							}
 						})
+                  self.tableView.reloadData()
 					}
 				})
 			}))
