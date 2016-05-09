@@ -18,7 +18,7 @@ only:
 
 xcode_project: OpenHome.xcodeproj
 xcode_scheme: OpenHome
-xcode_sdk: iphonesimulator
+xcode_sdk: iphonesimulator9.3
 
 # script:
 # - xctool -workspace OpenHome.xcworkspace -scheme OpenHome -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
