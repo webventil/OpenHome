@@ -36,13 +36,14 @@ class MainViewController: UITableViewController, HMHomeManagerDelegate {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("deviceId") as UITableViewCell?
+        let cell = tableView.dequeueReusableCellWithIdentifier("homeId") as UITableViewCell?
         let home = homeManager.homes[indexPath.row] as HMHome
         cell?.textLabel?.text = home.name
 
         // ignore the information service
-        cell?.detailTextLabel?.text = "\(home.accessories.count) service(s)"
-
+        cell?.detailTextLabel?.text = "\(home.accessories.count) " + { () -> String in
+            if home.accessories.count <= 1 { return "accessory" } else { return "accessories" }
+        }()
         return (cell != nil) ? cell! : UITableViewCell()
     }
 

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8FAAE48C1CDF8BEE009B5E2B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAAE48B1CDF8BEE009B5E2B /* HomeKit.framework */; };
-		AA12D409353DE2937982BF37 /* AccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D87D56FB056E8FBBE982 /* AccessoryViewController.swift */; };
+		AA12D409353DE2937982BF37 /* AccessoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D87D56FB056E8FBBE982 /* AccessoriesViewController.swift */; };
 		AA12D55C8C8F7218DDB79B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12DCB8E36F10D054AEB1A7 /* LaunchScreen.storyboard */; };
 		AA12D7090B35E6DCED6C6AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12D1433213767B5A612C1E /* Main.storyboard */; };
 		AA12D7CFB3576C430DA04A16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12D85E41218CA936B978D1 /* MainViewController.swift */; };
@@ -47,7 +47,7 @@
 		AA12D3F2AB5A7DF02285997B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA12D40664026D29C94A2E2D /* OpenHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA12D85E41218CA936B978D1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		AA12D87D56FB056E8FBBE982 /* AccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewController.swift; sourceTree = "<group>"; };
+		AA12D87D56FB056E8FBBE982 /* AccessoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoriesViewController.swift; sourceTree = "<group>"; };
 		AA12D8ED7A2BABC1DB7C9FC6 /* OpenHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA12DCA3540F8CF772D640E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 				AA12D9AB4625A0D26FDEC6E9 /* AppDelegate.swift */,
 				AA12D1433213767B5A612C1E /* Main.storyboard */,
 				AA12D85E41218CA936B978D1 /* MainViewController.swift */,
-				AA12D87D56FB056E8FBBE982 /* AccessoryViewController.swift */,
+				AA12D87D56FB056E8FBBE982 /* AccessoriesViewController.swift */,
 			);
 			path = OpenHome;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			files = (
 				AA12DB060241FB32FDE94632 /* AppDelegate.swift in Sources */,
 				AA12D7CFB3576C430DA04A16 /* MainViewController.swift in Sources */,
-				AA12D409353DE2937982BF37 /* AccessoryViewController.swift in Sources */,
+				AA12D409353DE2937982BF37 /* AccessoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
